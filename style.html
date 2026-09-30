@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my pet page</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color:lightyellow;
+            padding: 65px 30px 30px 30px;
+            min-height: 1800px
+        }
+        h1, h2 {color: darkorange}
+
+        .top-bar{
+            position: fixed;
+            top:0;
+            left: 0;
+            right: 0;
+            background-color:darkorange;
+color:white;
+padding: 14px 20px;
+        }
+
+        .list-item{
+            background-color: white;
+            border: 2px solid darkorange;
+            padding:10px 20px;
+            margin: 5px 0;
+
+        }
+
+        .special-note{
+            position: relative;
+            left: 30px;
+            background-color:gold ;
+            padding: 10px 20px;
+        }
+
+        .pet-card{
+            position: relative;
+            background-color: white;
+            border: 3px solid darkorange;
+            padding:15px 25px;
+
+        }
+
+        .badge{
+            position: absolute;
+            top: 8px;
+            right: 8px;
+            background-color: forestgreen;
+            color: white;
+            padding: 4px 8px;
+
+        }
+
+        .section-label{
+            padding: sticky;
+            top: 55px;
+            background-color: darkorange;
+            color: white;
+            padding: 10px 20px;
+            margin: 15px 0 8px;
+        }
+
+
+    </style>
+</head>
+<body>
+<div class="top-bar">my pet page-buddy</div>
+<h1>meet buddy!</h1>
+
+<h2>static</h2>
+<div class="list-term">breed:labrador</div>
+<div class="list-term">age:2 yrs old</div>
+
+<h2>relative</h2>
+<p>this note shifts right from its normal spot</p>
+<div class="special-note">pet of the month</div>
+
+<h2>absolut</h2>
+<p>the badge is pinned to the corner of the card</p>
+<div class="pet-caed">
+    <p>buddy- labrador , 2yrs </p>
+    <div class="badge">adopted!</div>
+
+</div>
+
+<h2>sticky</h2>
+<p>scroll - down the label locks at the top!</p>
+<div class="section-label">more pets availabe</div>
+<div class="list-item">luna - poodle,1 yr</div>
+<div class="list-item">max- german shepherd,3</div>
+<div class="list-item">daisy-beagle,4</div>
+<div class="list-item">rocky- golden retriver,2</div>
+<div class="list-item">border collie,2</div>
+<div class="list-item">shih tzu,5</div>
+<div class="list-item">husky,3</div>
+<div class="list-item">tabby cat,2</div>
+
+</body>
+</html>
